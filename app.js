@@ -552,21 +552,23 @@ function simulateSupportCall() {
 function copyGrievanceNotice() {
   const text = `FORMAL GRIEVANCE: UNFAIR TRADE PRACTICE & DEFICIENCY OF SERVICE
 To: Apollo 24|7 Management / BlueDart Express / Shiprocket
-Subject: Immediate Delivery or Warehouse Self-Pickup Authorization (Order Placed: 28 Sep 2026)
+Subject: URGENT: Life-Critical FreeStyle Libre CGM Sensor Delivery / Warehouse Pickup (Apollo Order #362811882)
 
-I placed an order on 28th September 2026. The promised delivery date of 29th October has lapsed. Over the past 72+ hours, I have contacted customer support over 10 times without resolution.
+I placed order #362811882 for a FreeStyle Libre Continuous Glucose Monitoring (CGM) sensor. The promised delivery date has lapsed. Over the past 72+ hours, I have contacted customer support over 10 times without resolution.
 
-Furthermore, delivery tracking falsely reports "Customer Unavailable / Delivery Attempted" despite no phone calls or physical visits to my verified address.
+My previous sensor expired 2 days ago, causing blood sugar to spike to a dangerous 341 mg/dL. 
+
+Furthermore, delivery tracking falsely reports "Delivery Attempted / Customer Unavailable" despite ZERO phone calls or physical visits to my verified address.
 
 DEMANDS:
 1. Deliver the pending package immediately within 24 hours, OR
 2. Provide the exact physical address, contact manager, and authorization for direct self-collection from the holding BlueDart warehouse hub.
 3. Cease recording falsified delivery attempt logs.
 
-Failure to resolve will result in formal submission to the National Consumer Helpline (NCH), INGRAM portal, and Consumer Disputes Redressal Commission under the Consumer Protection Act, 2019.`;
+Failure to resolve will result in immediate formal escalation to the National Consumer Helpline (NCH), INGRAM portal, the Central Consumer Protection Authority (CCPA), and Consumer Disputes Redressal Commission under the Consumer Protection Act, 2019.`;
 
   navigator.clipboard.writeText(text).then(() => {
-    showToast('📋 Formal Consumer Grievance notice copied to clipboard!');
+    showToast('📋 Formal Consumer Grievance notice (Order #362811882) copied to clipboard!');
   }).catch(() => {
     showToast('Failed to copy automatically. Please select text manually.');
   });
@@ -581,7 +583,7 @@ function shareOnTwitter() {
 
 function shareViralTweet() {
   const tweet = encodeURIComponent(
-    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nMy FreeStyle Libre CGM sensor expired 2 days ago. Blood sugar spiked to 341 mg/dL ↗! Ordered on 28 Sep, promised for 29 Oct. Called 10+ times in 3 days. Your riders keep marking "Customer Unavailable" with ZERO calls!\n\nTrack the proof & parody: https://sreyaskomala.github.io/apollo-waiting-room-parody/\n\n#Apollo247 #MedicalEmergency #BlueDart #ConsumerRights`
+    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nOrder #362811882 for FreeStyle Libre CGM sensor is marked "Delivery Attempted" with ZERO phone calls! My sensor expired 2 days ago & blood sugar spiked to 341 mg/dL ↗!\n\nDeliver it NOW or give me the hub address to pick up!\n\nProof & Tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/\n\n#Apollo247 #MedicalEmergency #BlueDart #ConsumerRights @jagograhakjago`
   );
   window.open(`https://twitter.com/intent/tweet?text=${tweet}`, '_blank');
 }
@@ -589,28 +591,29 @@ function shareViralTweet() {
 function copyInstagramCaption() {
   const caption = `🚨 MEDICAL EMERGENCY & EXPOSURE: HOW APOLLO 24|7 & BLUEDART ARE ENDANGERING PATIENTS 🚨
 
-Ordered a FreeStyle Libre continuous glucose monitor (CGM) on 28th September 2026.
-Promised delivery date: 29th October 2026.
+APOLLO ORDER NUMBER: #362811882
+ITEM: FreeStyle Libre Continuous Glucose Monitoring (CGM) Sensor
+ORDER STATUS: "Delivery Attempted" (FALSE CLAIM - 0 CALLS MADE)
 
-Today is DAY 4 past the deadline. My old sensor EXPIRED 2 days ago.
-Without continuous monitoring, my blood sugar spiked dangerously to 341 mg/dL ↗ (swipe to see proof).
+My previous sensor EXPIRED 2 days ago.
+Without continuous monitoring, my blood sugar spiked dangerously to 341 mg/dL ↗ (swipe to see receipts).
 
 Over the last 72 hours:
 📞 10+ desperate calls made to Apollo Customer Support.
 🚫 ZERO phone calls received from the BlueDart delivery boy.
-❌ Repeated fake SMS updates: "Customer Unavailable / Door Locked".
-🛑 Refused self-pickup when I offered to drive to the BlueDart hub myself.
+❌ Repeated fake SMS updates: "Customer Unavailable / Delivery Attempted".
+🛑 Refused self-pickup when I offered to drive to the BlueDart warehouse myself.
 
-Healthcare delivery is not an e-commerce joke. When you delay critical medical equipment, lives are at risk.
+Healthcare delivery is not an e-commerce game. When you delay critical medical equipment, lives are at risk.
 
 🔗 Full tracker & call simulator: https://sreyaskomala.github.io/apollo-waiting-room-parody/
 
 @apollo247 @bluedart_express @shiprocket @jagograhakjago_official @ministryofhealth_india
 
-#Apollo247 #BlueDart #Shiprocket #DiabetesAwareness #Type1Diabetes #ContinuousGlucoseMonitor #ConsumerRights #MedicalNegligence #HighGlucose #JagoGrahakJago`;
+#Apollo247 #BlueDart #Shiprocket #Order362811882 #DiabetesAwareness #Type1Diabetes #ContinuousGlucoseMonitor #ConsumerRights #MedicalNegligence #HighGlucose #JagoGrahakJago`;
 
   navigator.clipboard.writeText(caption).then(() => {
-    showToast('📸 Instagram caption & hashtags copied to clipboard! Ready to paste into your Post/Story.');
+    showToast('📸 Instagram caption with Order #362811882 copied to clipboard! Ready to paste into your Post/Story.');
   }).catch(() => {
     showToast('Failed to copy. Please manually copy caption.');
   });
@@ -618,7 +621,7 @@ Healthcare delivery is not an e-commerce joke. When you delay critical medical e
 
 function shareOnWhatsApp() {
   const msg = encodeURIComponent(
-    `🚨 Critical medical delivery failure: My FreeStyle Libre glucose sensor expired 2 days ago and blood sugar spiked to 341 mg/dL! Apollo 24|7, Shiprocket & BlueDart have delayed delivery for days and keep marking fake "Customer Unavailable" attempts with 0 phone calls. Check the full parody & evidence tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/`
+    `🚨 Critical medical delivery failure: Apollo Order #362811882 for FreeStyle Libre glucose sensor marked "Delivery Attempted" with 0 phone calls! Sensor expired 2 days ago, glucose spiked to 341 mg/dL! Check the full evidence tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/`
   );
   window.open(`https://api.whatsapp.com/send?text=${msg}`, '_blank');
 }
@@ -676,16 +679,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnViralWa = document.getElementById('btn-share-whatsapp-viral');
   if (btnViralWa) btnViralWa.addEventListener('click', shareOnWhatsApp);
 
-  // Image modal
-  const proofImg = document.getElementById('img-proof');
+  // Image modal for all proof screenshots
   const modal = document.getElementById('image-modal');
+  const modalImg = document.getElementById('modal-img');
   const modalClose = document.getElementById('modal-close');
+  const proofImages = document.querySelectorAll('.zoomable-proof');
 
-  if (proofImg && modal) {
-    proofImg.addEventListener('click', () => {
-      modal.classList.add('active');
+  proofImages.forEach(img => {
+    img.addEventListener('click', () => {
+      if (modal && modalImg) {
+        modalImg.src = img.src;
+        modal.classList.add('active');
+      }
     });
-  }
+  });
 
   if (modalClose && modal) {
     modalClose.addEventListener('click', () => {

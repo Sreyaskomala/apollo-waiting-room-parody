@@ -191,29 +191,61 @@
         </div>
       </div>
 
-      <div class="medical-proof-grid">
+      <div class="medical-proof-grid" style="display:block;">
         
-        <!-- PROOF IMAGE -->
-        <div class="proof-image-wrapper">
-          <img src="assets/sensor-proof.jpg" alt="FreeStyle Libre Glucose 341 mg/dL Spike Proof" class="proof-img" id="img-proof">
-          <div class="proof-caption">
-            🔍 Click image to enlarge • FreeStyle LibreLink: 341 mg/dL ↗ High Glucose • Sensor expired
+        <!-- DUAL EVIDENCE GALLERY -->
+        <div class="evidence-gallery-grid">
+          
+          <!-- PROOF 1: OFFICIAL APOLLO ORDER DASHBOARD -->
+          <div class="evidence-card highlight">
+            <div>
+              <span class="evidence-badge apollo">
+                🧾 OFFICIAL RECEIPT: APOLLO 24|7 DASHBOARD
+              </span>
+              <div class="evidence-img-container">
+                <img src="assets/apollo-order-proof.png" alt="Apollo Order #362811882 Delivery Attempted Proof" class="evidence-img zoomable-proof">
+              </div>
+            </div>
+            <div class="evidence-meta">
+              <strong>Order #362811882</strong> • Created: <strong>26 Oct 2026</strong><br>
+              Item: <strong>FreeStyle Libre Sensor</strong><br>
+              Status: <span style="color:#ef4444; font-weight:800;">"Delivery Attempted"</span> (No driver call made)<br>
+              Promise: <em>"Today, by 09:00 PM"</em> (shifts daily)
+            </div>
           </div>
+
+          <!-- PROOF 2: FREESTYLE LIBRELINK GLUCOSE SPIKE -->
+          <div class="evidence-card highlight">
+            <div>
+              <span class="evidence-badge medical">
+                🩸 MEDICAL LOG: FREESTYLE LIBRELINK SENSOR
+              </span>
+              <div class="evidence-img-container">
+                <img src="assets/sensor-proof.jpg" alt="FreeStyle LibreLink 341 mg/dL Glucose Spike Proof" class="evidence-img zoomable-proof">
+              </div>
+            </div>
+            <div class="evidence-meta">
+              Reading: <span style="color:#ea580c; font-weight:900;">341 mg/dL ↗ HIGH GLUCOSE</span><br>
+              Condition: <strong>Sensor expired 2 days ago</strong><br>
+              Impact: Severe acute hyperglycemia during delivery delay
+            </div>
+          </div>
+
         </div>
 
         <!-- DETAILS & VIRAL ACTIONS -->
-        <div class="proof-content">
+        <div class="proof-content" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:16px; padding:24px;">
           <div>
             <span class="eyebrow" style="background:#fee2e2; color:#991b1b; border-color:#fecaca;">
-              VERIFIED MEDICAL LOG
+              VERIFIED SMOKING-GUN EVIDENCE
             </span>
-            <h2 style="font-size:28px; font-weight:900; color:var(--ink); margin:12px 0 8px;">
-              The Human Cost of "Customer Unavailable"
+            <h2 style="font-size:26px; font-weight:900; color:var(--ink); margin:12px 0 8px;">
+              Order #362811882: The Human Cost of Falsified "Delivery Attempts"
             </h2>
             <p style="color:#475569; font-size:14px; line-height:1.6;">
-              When Apollo 24|7 and BlueDart play logistics ping-pong, real patients suffer. 
-              The order for replacement glucose sensors was confirmed on <strong>28th September 2026</strong>. 
-              When the promised date of 29th October passed, the existing sensor expired, leaving the user with no CGM coverage.
+              When Apollo 24|7, Shiprocket, and BlueDart mark <em>"Delivery Attempted"</em> without ringing the patient's phone, 
+              they aren't delaying a frivolous e-commerce package. They are delaying a vital <strong>FreeStyle Libre continuous glucose sensor</strong>. 
+              The patient's previous sensor expired 2 days ago, causing blood sugar to spike to a life-threatening <strong>341 mg/dL</strong>.
             </p>
 
             <div class="glucose-readout-card">
@@ -223,31 +255,48 @@
                   <small>mg/dL</small>
                 </div>
                 <div class="glucose-info">
-                  <h4>CRITICAL HIGH GLUCOSE SPIKE</h4>
+                  <h4>CRITICAL HIGH GLUCOSE SPIKE (ORDER #362811882)</h4>
                   <p>
-                    Normal fasting level: 70–100 mg/dL.<br>
-                    <strong>341 mg/dL</strong> represents acute hyperglycemia with severe risks. 
-                    Every hour without sensor monitoring is a medical gamble.
+                    Normal fasting glucose: 70–100 mg/dL.<br>
+                    <strong>341 mg/dL</strong> is severe hyperglycemia with dangerous medical risks. 
+                    Every single day without a sensor is an avoidable health crisis.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div style="background:#f1f5f9; border-radius:10px; padding:14px; font-size:13px; color:#334155;">
-              <strong>The Reality on the Ground:</strong><br>
-              • Sensor status: Expired 2 days ago.<br>
-              • Calls made by customer: 10+ in the last 72 hours.<br>
-              • Calls made by BlueDart delivery rider: <strong>0 (ZERO)</strong>.<br>
-              • Refused self-pickup: Customer offered to pick up package directly at hub; request denied.
+            <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:14px; font-size:13px; color:#334155;">
+              <strong>Official Order Facts (Apollo Order #362811882):</strong><br>
+              • <strong>Order ID:</strong> #362811882<br>
+              • <strong>Created:</strong> 26 Oct 2026<br>
+              • <strong>Item:</strong> FreeStyle Libre Continuous Glucose Monitoring (CGM) Sensor<br>
+              • <strong>Status Claim:</strong> "Delivery Attempted"<br>
+              • <strong>Actual Delivery Attempts:</strong> 0 phone calls, 0 doorbell rings, 0 driver sightings.<br>
+              • <strong>Customer Action:</strong> Reached out 10+ times in 3 days; offered direct warehouse pickup (denied).
             </div>
           </div>
 
           <!-- SOCIAL VIRAL BUTTONS -->
           <div>
             <div style="font-size:12px; font-weight:800; color:#64748b; letter-spacing:1px; margin-top:20px; text-transform:uppercase;">
-              Share & Hold Accountable
+              Share & Hold Accountable (Citing Order #362811882)
             </div>
             <div class="social-share-buttons">
+              <button class="btn-twitter-viral" id="btn-share-twitter-viral">
+                <span>𝕏 Share on Twitter / X</span>
+              </button>
+              <button class="btn-instagram-viral" id="btn-share-instagram-viral">
+                <span>📸 Copy Instagram Caption</span>
+              </button>
+              <button class="btn-whatsapp-viral" id="btn-share-whatsapp-viral">
+                <span>💬 Share to WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
               <button class="btn-twitter-viral" id="btn-share-twitter-viral">
                 <span>𝕏 Share on Twitter / X</span>
               </button>
