@@ -583,7 +583,7 @@ function shareOnTwitter() {
 
 function shareViralTweet() {
   const tweet = encodeURIComponent(
-    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nOrder #362811882 for FreeStyle Libre CGM sensor is marked "Delivery Attempted" with ZERO phone calls! My sensor expired 2 days ago & blood sugar spiked to 341 mg/dL ↗!\n\nDeliver it NOW or give me the hub address to pick up!\n\nProof & Tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/\n\n#Apollo247 #MedicalEmergency #BlueDart #ConsumerRights @jagograhakjago`
+    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nOrder #362811882 for FreeStyle Libre CGM sensor is marked "Delivery Attempted" with ZERO phone calls! My sensor expired 2 days ago & blood sugar spiked to 341 mg/dL ↗!\n\nDeliver it NOW or give me the hub address to pick up!\n\nProof & Tracker: https://apollo-waiting-room-parody.vercel.app/\n\n#Apollo247 #MedicalEmergency #BlueDart #ConsumerRights @jagograhakjago`
   );
   window.open(`https://twitter.com/intent/tweet?text=${tweet}`, '_blank');
 }
@@ -606,7 +606,7 @@ Over the last 72 hours:
 
 Healthcare delivery is not an e-commerce game. When you delay critical medical equipment, lives are at risk.
 
-🔗 Full tracker & call simulator: https://sreyaskomala.github.io/apollo-waiting-room-parody/
+🔗 Full tracker & call simulator: https://apollo-waiting-room-parody.vercel.app/
 
 @apollo247 @bluedart_express @shiprocket @jagograhakjago_official @ministryofhealth_india
 
@@ -621,7 +621,7 @@ Healthcare delivery is not an e-commerce game. When you delay critical medical e
 
 function shareOnWhatsApp() {
   const msg = encodeURIComponent(
-    `🚨 Critical medical delivery failure: Apollo Order #362811882 for FreeStyle Libre glucose sensor marked "Delivery Attempted" with 0 phone calls! Sensor expired 2 days ago, glucose spiked to 341 mg/dL! Check the full evidence tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/`
+    `🚨 Critical medical delivery failure: Apollo Order #362811882 for FreeStyle Libre glucose sensor marked "Delivery Attempted" with 0 phone calls! Sensor expired 2 days ago, glucose spiked to 341 mg/dL! Check the full evidence tracker: https://apollo-waiting-room-parody.vercel.app/`
   );
   window.open(`https://api.whatsapp.com/send?text=${msg}`, '_blank');
 }
