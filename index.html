@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apollo 24/7… Waiting | The High-Glucose Delivery Nightmare</title>
+  
+  <!-- OPEN GRAPH & TWITTER CARDS FOR VIRAL SHARING -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Apollo 24/7… Waiting | Diabetic Sensor Delayed, Glucose Spikes to 341 mg/dL">
+  <meta property="og:description" content="FreeStyle Libre CGM sensor expired 2 days ago. Blood sugar spiked to 341 mg/dL while Apollo 24|7, Shiprocket & BlueDart repeatedly post fake 'Customer Unavailable' updates with 0 calls.">
+  <meta property="og:image" content="assets/sensor-proof.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Apollo 24/7… Waiting | Diabetic Sensor Delayed, Glucose Spikes to 341 mg/dL">
+  <meta name="twitter:description" content="FreeStyle Libre CGM sensor expired 2 days ago. Blood sugar spiked to 341 mg/dL while Apollo 24|7, Shiprocket & BlueDart repeatedly post fake 'Customer Unavailable' updates with 0 calls.">
+  <meta name="twitter:image" content="assets/sensor-proof.jpg">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- LEGAL FAIR USE PARODY BANNER -->
+  <div class="parody-banner">
+    <div class="pulse-dot"></div>
+    <span>⚠️ INDEPENDENT CONSUMER SATIRE & PARODY · NOT AFFILIATED WITH APOLLO 24|7, SHIPROCKET, OR BLUE DART · BASED ON REAL MEDICAL SENSOR DELIVERY WOES</span>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap header-inner">
+      <div class="logo-area">
+        <div class="brand-icon">A</div>
+        <div>
+          <div class="logo-text">Apollo <span>24/7…</span></div>
+          <span class="logo-sub">WAITING. STILL WAITING. STILL GHOSTED.</span>
+        </div>
+      </div>
+
+      <div class="live-badge">
+        <span class="dot"></span>
+        <span>STATUS: "OUT FOR DELIVERY" (DAY 4)</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#emergency">🚨 Medical Proof</a>
+        <a href="#timer">Chronograph</a>
+        <a href="#loop">The Infinite Loop</a>
+        <a href="#audio">Audio Proof</a>
+        <a href="#radar">Phantom Radar</a>
+        <a href="#timeline">The 3-Day Hell</a>
+        <a href="#resolution">Resolution</a>
+      </nav>
+
+      <button class="btn-header" id="btn-simulate-call">
+        <span>📞 Call Support (#11)</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="timer">
+      <div class="hero-grid">
+        
+        <!-- LEFT: STORY & HOOK -->
+        <div class="hero-content">
+          <div>
+            <div class="eyebrow">
+              <span>⏱️ LIVE PARODY & CONSUMER ALERT</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Healthcare at your doorstep.<br>
+              <em>Allegedly.</em>
+            </h1>
+            
+            <p class="hero-desc">
+              Ordered a vital <strong>FreeStyle Libre continuous glucose sensor</strong> on <strong>28th September 2026</strong>. 
+              Promised delivery: <strong>29th October</strong>. The sensor expired 2 days ago. Blood sugar spiked to 
+              <strong style="color:#dc2626;">341 mg/dL</strong>. Reached out <strong>10+ times in 3 days</strong>. 
+              Shiprocket & BlueDart keep marking <em>"Customer Unavailable"</em> without ringing the phone once.
+            </p>
+
+            <div class="hero-tags">
+              <span class="tag-badge tag-apollo">🏥 Apollo 24|7 "Promises"</span>
+              <span class="tag-badge tag-shiprocket">🚀 Shiprocket "Tracking"</span>
+              <span class="tag-badge tag-bluedart">📦 BlueDart "Ghost Attempts"</span>
+              <span class="tag-badge" style="background:#fee2e2; color:#b91c1c; border:1px solid #fecaca;">⚠️ FreeStyle Libre Expired</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <button class="btn-primary" onclick="document.getElementById('emergency').scrollIntoView({behavior: 'smooth'})">
+              <span>🚨 View Medical Evidence (341 mg/dL)</span>
+              <span>↓</span>
+            </button>
+            <button class="btn-outline" onclick="document.getElementById('audio').scrollIntoView({behavior: 'smooth'})">
+              <span>🎧 Listen to Audio Proof</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- RIGHT: THE WAITING CHRONOGRAPH -->
+        <div class="timer-hero-card">
+          <div>
+            <div class="timer-header">
+              <div>
+                <span class="timer-label">THE WAITING CHRONOGRAPH</span>
+                <div class="timer-sublabel">Ticking live since September 28, 2026</div>
+              </div>
+              <span class="live-badge" style="background: rgba(239, 68, 68, 0.2); border-color: #ef4444; color: #fca5a5;">
+                <span class="dot"></span> LIVE
+              </span>
+            </div>
+
+            <!-- STOPWATCH DIGITS -->
+            <div class="stopwatch-display">
+              <div class="time-box">
+                <span class="num" id="timer-days">34</span>
+                <span class="unit">Days</span>
+              </div>
+              <div class="time-box">
+                <span class="num" id="timer-hours">05</span>
+                <span class="unit">Hours</span>
+              </div>
+              <div class="time-box">
+                <span class="num" id="timer-minutes">22</span>
+                <span class="unit">Mins</span>
+              </div>
+              <div class="time-box">
+                <span class="num" id="timer-seconds">19</span>
+                <span class="unit">Secs</span>
+              </div>
+            </div>
+
+            <!-- DEADLINES -->
+            <div class="deadlines-grid">
+              <div class="sub-timer-card">
+                <div class="label">Delivery Due Date</div>
+                <div class="value">29 OCT 2026</div>
+              </div>
+              <div class="sub-timer-card">
+                <div class="label">Overdue Timer</div>
+                <div class="value" id="timer-overdue">3d 04h 12m overdue</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STATS ROW -->
+          <div class="timer-stats-row">
+            <div class="stat-item warning">
+              <div class="stat-num" id="stat-call-count">10+</div>
+              <div class="stat-label">Calls Made in 72 Hrs</div>
+            </div>
+            <div class="stat-item danger">
+              <div class="stat-num">0</div>
+              <div class="stat-label">Rings on User's Phone</div>
+            </div>
+            <div class="stat-item danger">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">Fake "Unavailable" SMS</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CRITICAL MEDICAL EMERGENCY EVIDENCE SECTION -->
+    <section class="section" id="emergency">
+      
+      <div class="medical-alert-banner">
+        <div class="medical-alert-text">
+          <h3>🚨 THIS IS NOT A T-SHIRT: REAL MEDICAL HEALTH EMERGENCY</h3>
+          <p>
+            The patient's FreeStyle Libre Continuous Glucose Monitoring (CGM) sensor expired <strong>2 days ago</strong>. 
+            Without real-time continuous monitoring, blood sugar spiked to a dangerous <strong>341 mg/dL ↗ HIGH GLUCOSE</strong>. 
+            Delaying critical diabetes equipment while logging fake delivery attempts is severe deficiency of service.
+          </p>
+        </div>
+        <div style="flex-shrink:0;">
+          <button class="btn-primary" id="btn-share-viral-top" style="background:#fef08a; color:#7f1d1d;">
+            <span>📢 Expose on Twitter / X</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="medical-proof-grid">
+        
+        <!-- PROOF IMAGE -->
+        <div class="proof-image-wrapper">
+          <img src="assets/sensor-proof.jpg" alt="FreeStyle Libre Glucose 341 mg/dL Spike Proof" class="proof-img" id="img-proof">
+          <div class="proof-caption">
+            🔍 Click image to enlarge • FreeStyle LibreLink: 341 mg/dL ↗ High Glucose • Sensor expired
+          </div>
+        </div>
+
+        <!-- DETAILS & VIRAL ACTIONS -->
+        <div class="proof-content">
+          <div>
+            <span class="eyebrow" style="background:#fee2e2; color:#991b1b; border-color:#fecaca;">
+              VERIFIED MEDICAL LOG
+            </span>
+            <h2 style="font-size:28px; font-weight:900; color:var(--ink); margin:12px 0 8px;">
+              The Human Cost of "Customer Unavailable"
+            </h2>
+            <p style="color:#475569; font-size:14px; line-height:1.6;">
+              When Apollo 24|7 and BlueDart play logistics ping-pong, real patients suffer. 
+              The order for replacement glucose sensors was confirmed on <strong>28th September 2026</strong>. 
+              When the promised date of 29th October passed, the existing sensor expired, leaving the user with no CGM coverage.
+            </p>
+
+            <div class="glucose-readout-card">
+              <div class="glucose-stat-row">
+                <div class="glucose-val-box">
+                  341 ↗
+                  <small>mg/dL</small>
+                </div>
+                <div class="glucose-info">
+                  <h4>CRITICAL HIGH GLUCOSE SPIKE</h4>
+                  <p>
+                    Normal fasting level: 70–100 mg/dL.<br>
+                    <strong>341 mg/dL</strong> represents acute hyperglycemia with severe risks. 
+                    Every hour without sensor monitoring is a medical gamble.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div style="background:#f1f5f9; border-radius:10px; padding:14px; font-size:13px; color:#334155;">
+              <strong>The Reality on the Ground:</strong><br>
+              • Sensor status: Expired 2 days ago.<br>
+              • Calls made by customer: 10+ in the last 72 hours.<br>
+              • Calls made by BlueDart delivery rider: <strong>0 (ZERO)</strong>.<br>
+              • Refused self-pickup: Customer offered to pick up package directly at hub; request denied.
+            </div>
+          </div>
+
+          <!-- SOCIAL VIRAL BUTTONS -->
+          <div>
+            <div style="font-size:12px; font-weight:800; color:#64748b; letter-spacing:1px; margin-top:20px; text-transform:uppercase;">
+              Share & Hold Accountable
+            </div>
+            <div class="social-share-buttons">
+              <button class="btn-twitter-viral" id="btn-share-twitter-viral">
+                <span>𝕏 Share on Twitter / X</span>
+              </button>
+              <button class="btn-instagram-viral" id="btn-share-instagram-viral">
+                <span>📸 Copy Instagram Caption</span>
+              </button>
+              <button class="btn-whatsapp-viral" id="btn-share-whatsapp-viral">
+                <span>💬 Share to WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SECTION 1: THE INFINITE DELIVERY LOOP -->
+    <section class="section" id="loop">
+      <div class="section-head">
+        <span class="eyebrow">🔄 DAILY COMMUTE OF A GHOST PARCEL</span>
+        <h2 class="section-title">The Apollo × Shiprocket × BlueDart Infinite Loop</h2>
+        <p class="section-subtitle">
+          How an urgent medical sensor manages to be "Out for delivery" every single day while the customer stares at an empty doorstep.
+        </p>
+      </div>
+
+      <div class="loop-container">
+        <div class="loop-stages">
+          
+          <div class="loop-stage" id="stage-1">
+            <div class="loop-badge-icon">📦</div>
+            <div class="stage-time">08:30 AM</div>
+            <div class="stage-title">Dispatched with BlueDart</div>
+            <div class="stage-desc">Shiprocket generates tracking ID. Customer receives automated hype SMS. Hopes are temporarily elevated.</div>
+          </div>
+
+          <div class="loop-stage" id="stage-2">
+            <div class="loop-badge-icon">🛵</div>
+            <div class="stage-time">11:15 AM</div>
+            <div class="stage-title">Out for Delivery!</div>
+            <div class="stage-desc">"Rider assigned. Keep your phone handy!" Customer charges phone to 100% and stays glued to the front door.</div>
+          </div>
+
+          <div class="loop-stage" id="stage-3">
+            <div class="loop-badge-icon">📍</div>
+            <div class="stage-time">02:40 PM</div>
+            <div class="stage-title">Rider is 150m Away</div>
+            <div class="stage-desc">Rider enters your neighbourhood, spots your building, encounters existential dread, and makes an emergency U-turn.</div>
+          </div>
+
+          <div class="loop-stage" id="stage-4">
+            <div class="loop-badge-icon">📵</div>
+            <div class="stage-time">05:45 PM</div>
+            <div class="stage-title">"Customer Unavailable"</div>
+            <div class="stage-desc">BlueDart server marks: <em>"Delivery attempted: Door locked / Customer unreachable"</em>. Phone never buzzed once.</div>
+          </div>
+
+          <div class="loop-stage" id="stage-5">
+            <div class="loop-badge-icon">🔄</div>
+            <div class="stage-time">08:00 PM</div>
+            <div class="stage-title">Loop Restarts Tomorrow</div>
+            <div class="stage-desc">Customer calls support (call #10). Agent promises: <em>"Sir, tomorrow guaranteed by 8 PM"</em>. Repeat infinitely.</div>
+          </div>
+
+        </div>
+
+        <div class="loop-actions-bar">
+          <div class="loop-reality-tag">
+            <span>🚨 REALITY CHECK:</span>
+            <span>Customer has zero missed calls. Phone call logs confirm 0 incoming rings from delivery partner.</span>
+          </div>
+
+          <button class="btn-primary" id="btn-run-loop">
+            <span>▶ Simulate Today's Delivery Cycle</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: AUDIO RECORDING EVIDENCE & CALL LOGS -->
+    <section class="section" id="audio">
+      <div class="section-head">
+        <span class="eyebrow">🎧 AUDIO EVIDENCE & CALL VAULT</span>
+        <h2 class="section-title">Customer Care Call Center & Audio Proof</h2>
+        <p class="section-subtitle">
+          10+ calls placed over 3 days. Listen to our built-in simulator or attach your own recorded support calls below!
+        </p>
+      </div>
+
+      <div class="audio-station">
+        <div class="audio-layout">
+          
+          <!-- LEFT: THE AUDIO PLAYER -->
+          <div class="audio-player-card">
+            <div>
+              <div class="now-playing-tag">
+                <span class="eyebrow" style="background: rgba(255,255,255,0.1); color: var(--orange); border: 1px solid rgba(255,255,255,0.2);">
+                  AUDIO EVIDENCE VAULT
+                </span>
+                <span style="font-size: 11px; color: #94a3b8; font-family: var(--font-mono);">MP3 / WAV / M4A READY</span>
+              </div>
+
+              <div class="audio-track-title" id="audio-track-title">Apollo 24/7 Call Center Simulator</div>
+              <div class="audio-track-subtitle" id="audio-track-subtitle">
+                Synthetic Hold Music + Corporate Denial Simulation (Attach your audio recording below)
+              </div>
+
+              <!-- EQUALIZER WAVEFORM -->
+              <div class="waveform-container" id="waveform-box">
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+              </div>
+
+              <!-- CONTROLS & TIMELINE -->
+              <div class="player-controls">
+                <button class="btn-play-pause" id="btn-play-audio" title="Play / Pause">▶</button>
+                
+                <div class="progress-wrap">
+                  <div class="progress-bar-bg" id="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                  </div>
+                  <div class="time-indicators">
+                    <span id="audio-cur-time">00:00</span>
+                    <span id="audio-dur-time">00:48</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- UPLOAD DROPZONE -->
+            <div class="upload-box" id="audio-upload-dropzone">
+              <input type="file" id="audio-file-input" accept="audio/*">
+              <div class="upload-icon">📁</div>
+              <div class="upload-title">Attach Your Call Recording File</div>
+              <div class="upload-desc">
+                Drag & drop your <code>.mp3</code>, <code>.wav</code>, or <code>.m4a</code> call recording here, or click to browse.
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: 10 CALLS LOG HISTORY -->
+          <div class="call-logs-card">
+            <div class="call-logs-header">
+              <span>📋 10 Calls in 72 Hours (Oct 29 – Nov 1)</span>
+              <span style="font-size: 11px; color: #ef4444; font-weight: 800;">UNRESOLVED</span>
+            </div>
+
+            <div class="call-logs-list" id="call-logs-container">
+              
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Call #10 • Nov 1, 12:00 PM</span>
+                  <span style="color:#ef4444">EMPTY PROMISE</span>
+                </div>
+                <div class="call-log-text">
+                  Customer: "It's day 4 since expected date. Sensor expired 2 days ago, glucose is at 341 mg/dL! What is happening?"<br>
+                  Support: "Sir, I personally guarantee delivery by 8 PM today." (Narrator: It didn't arrive).
+                </div>
+              </div>
+
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Call #9 • Oct 31, 08:00 PM</span>
+                  <span style="color:#f59e0b">GHOST SMS</span>
+                </div>
+                <div class="call-log-text">
+                  Shiprocket SMS: "Delivery failed: Customer unavailable." Customer checked call log: 0 rings. Support: "Rider says your phone was out of coverage."
+                </div>
+              </div>
+
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Call #8 • Oct 31, 03:00 PM</span>
+                  <span style="color:#38bdf8">REFUSED PICKUP</span>
+                </div>
+                <div class="call-log-text">
+                  Customer: "Give me the BlueDart hub warehouse address, I will go pick it up myself!"<br>
+                  Support: "Sir, warehouse coordinates cannot be disclosed for security reasons."
+                </div>
+              </div>
+
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Call #7 • Oct 31, 11:00 AM</span>
+                  <span style="color:#f59e0b">ESCALATED</span>
+                </div>
+                <div class="call-log-text">
+                  Support: "We have escalated this ticket to the highest floor manager priority level."
+                </div>
+              </div>
+
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Calls #4-6 • Oct 30</span>
+                  <span style="color:#ef4444">LOCATION SHARED</span>
+                </div>
+                <div class="call-log-text">
+                  Customer sent exact Google Maps pin and landmark. Delivery status marked "Address incomplete" 2 hours later.
+                </div>
+              </div>
+
+              <div class="call-log-item">
+                <div class="call-log-meta">
+                  <span>Calls #1-3 • Oct 29</span>
+                  <span style="color:#64748b">THE PROMISED DAY</span>
+                </div>
+                <div class="call-log-text">
+                  Initial promised delivery deadline expires without delivery executive reaching out.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: PHANTOM DELIVERY BOY GPS RADAR -->
+    <section class="section" id="radar">
+      <div class="section-head">
+        <span class="eyebrow">📡 SATELLITE TELEMETRY (PARODY)</span>
+        <h2 class="section-title">The BlueDart Teleporting Rider Radar</h2>
+        <p class="section-subtitle">
+          Watch in real-time as the delivery boy reaches 150 meters from your building, experiences sheer panic, and speeds away.
+        </p>
+      </div>
+
+      <div class="radar-grid">
+        <div class="radar-screen-wrap">
+          <div class="radar-sweep"></div>
+          <div class="radar-concentric c-1"></div>
+          <div class="radar-concentric c-2"></div>
+          <div class="radar-concentric c-3"></div>
+
+          <!-- HOME TARGET -->
+          <div class="radar-marker marker-home" id="marker-home">
+            <div class="icon">🏠</div>
+            <div>Your House (Waiting)</div>
+          </div>
+
+          <!-- RIDER TARGET -->
+          <div class="radar-marker marker-rider" id="marker-rider">
+            <div class="icon">🛵</div>
+            <div>BlueDart Rider Mukesh</div>
+          </div>
+
+          <!-- LIVE LOG OVERLAY -->
+          <div class="radar-log-box" id="radar-live-log">
+            📡 Radar calibrated. BlueDart rider idling near tea stall 1.2km away...
+          </div>
+        </div>
+
+        <!-- RADAR EXPLANATION & CONTROLS -->
+        <div class="loop-container" style="display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <span class="eyebrow" style="color:#b91c1c; border-color:#fecaca; background:#fef2f2;">GHOST DETECTION SYSTEM</span>
+            <h3 style="font-size:22px; font-weight:900; color:var(--ink); margin:12px 0 8px;">
+              Why did the rider turn back?
+            </h3>
+            <p style="color:#64748b; font-size:14px; line-height:1.6; margin-bottom:16px;">
+              Our patented <strong>GhostRider Telemetry™</strong> calculates the exact moment an Indian courier decides 
+              it's 5:30 PM, marks "Customer not available", and clocks out for the day without ringing your phone.
+            </p>
+
+            <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:14px; font-size:13px; color:#334155; margin-bottom:20px;">
+              <strong>Rider Excuses Algorithm:</strong><br>
+              • Distance < 200m: 85% probability of sudden u-turn<br>
+              • Phone rings attempted: 0<br>
+              • BlueDart server mark: "Door closed, nobody home"
+            </div>
+          </div>
+
+          <button class="btn-primary" id="btn-test-radar">
+            <span>📡 Test BlueDart Radar U-Turn</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: THE 3-DAY TIMELINE OF HELL -->
+    <section class="section" id="timeline">
+      <div class="section-head">
+        <span class="eyebrow">📅 THE LOG OF BROKEN PROMISES</span>
+        <h2 class="section-title">The Chronology: 28 Sep – 01 Nov 2026</h2>
+        <p class="section-subtitle">
+          A blow-by-blow breakdown of one patient's healthcare delivery turned Kafkaesque bureaucratic marathon.
+        </p>
+      </div>
+
+      <div class="timeline-grid">
+        
+        <div class="timeline-card">
+          <div class="timeline-date">28 SEPTEMBER 2026</div>
+          <div class="timeline-title">Order Placed</div>
+          <div class="timeline-body">
+            FreeStyle Libre sensor order placed on Apollo 24|7. Promised express fulfillment. Customer assumes medical supply chains are dependable.
+          </div>
+        </div>
+
+        <div class="timeline-card urgent">
+          <div class="timeline-date">29 OCTOBER 2026</div>
+          <div class="timeline-title">The Promised Day Missed</div>
+          <div class="timeline-body">
+            Target delivery date arrives. Radio silence. Customer initiates first wave of support calls (Calls #1 to #3). Promised "by 8 PM tonight".
+          </div>
+        </div>
+
+        <div class="timeline-card urgent">
+          <div class="timeline-date">30 OCTOBER 2026</div>
+          <div class="timeline-title">Location Shared, Sensor Expires</div>
+          <div class="timeline-body">
+            Customer explicitly sends exact GPS coordinates. Old sensor expires. Status marked: "Customer unavailable". Phone never rang once.
+          </div>
+        </div>
+
+        <div class="timeline-card urgent">
+          <div class="timeline-date">31 OCT – 01 NOV 2026</div>
+          <div class="timeline-title">10+ Calls, Glucose Spikes to 341 mg/dL</div>
+          <div class="timeline-body">
+            Blood sugar hits 341 mg/dL. Customer asks for warehouse pickup; denied. Endless scripted apologies while rider ghosts delivery.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: THE EXCUSE MACHINE 3.0 -->
+    <section class="section" id="excuses">
+      <div class="excuse-lab">
+        <div>
+          <span class="eyebrow" style="background: rgba(255,255,255,0.1); color: var(--orange); border-color: rgba(255,255,255,0.2);">
+            GENERATOR OF ILLUSION
+          </span>
+          <h2 style="font-size:36px; font-weight:900; line-height:1.15; margin:16px 0;">
+            The Apollo Logistics Excuse Machine 3.0
+          </h2>
+          <p style="color:#94a3b8; font-size:15px; line-height:1.6; margin-bottom:20px;">
+            Every time you refresh, a new certified excuse is pulled from the depths of BlueDart, Shiprocket, and Apollo support scripts.
+          </p>
+          <span class="live-badge" id="excuse-counter-badge" style="background: rgba(252, 183, 22, 0.1); border-color: var(--orange); color: var(--orange);">
+            0 fictional updates · 0 parcels moved
+          </span>
+        </div>
+
+        <div class="excuse-box-display">
+          <div>
+            <span style="font-size:11px; font-weight:800; letter-spacing:1px; color:#38bdf8; text-transform:uppercase;">
+              LATEST LOGISTICS JUSTIFICATION
+            </span>
+            <div class="excuse-output" id="excuse-output-text">
+              "Customer unavailable. Our delivery executive called using telepathy, but your mind was engaged."
+            </div>
+          </div>
+
+          <button class="btn-primary" id="btn-refresh-excuse" style="align-self: flex-start; margin-top: 20px;">
+            <span>🔄 Generate Another Excuse</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: RESOLUTION NOTICE & SOCIAL BLAST -->
+    <section class="section" id="resolution">
+      <div class="resolution-box">
+        <div class="resolution-text">
+          <span class="eyebrow" style="background: #fef3c7; color: #92400e; border-color: #fde68a;">
+            FORMAL RESOLUTION
+          </span>
+          <h3>Deliver it. Or let me pick it up from the hub.</h3>
+          <p>
+            Enough loop-de-loops. Give a confirmed delivery window, or provide the holding BlueDart hub address for immediate self-collection.
+          </p>
+        </div>
+
+        <div class="resolution-buttons">
+          <button class="btn-primary" id="btn-copy-grievance">
+            <span>📋 Copy Formal Grievance</span>
+          </button>
+          <button class="btn-outline" id="btn-share-twitter" style="background:#000; color:#fff; border-color:#000;">
+            <span>𝕏 Post on Twitter / X</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- IMAGE ZOOM MODAL -->
+  <div class="image-modal" id="image-modal">
+    <span class="image-modal-close" id="modal-close">&times;</span>
+    <img src="assets/sensor-proof.jpg" alt="Enlarged Proof" id="modal-img">
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div id="toast"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <strong>Independent Satire, Parody & Consumer Commentary.</strong><br>
+      This webpage is an independent parody and consumer rights commentary created under fair use. It is <strong>NOT</strong> affiliated with, endorsed by, or sponsored by Apollo 24|7, Apollo Hospitals Enterprise Ltd, Apollo Pharmacy, Shiprocket, or Blue Dart Express Ltd.
+      All product names, trademarks, and registered trademarks are property of their respective owners. Content on this page is comedic satire reflecting a customer's individual experience with order delays and phantom delivery attempts.
+      <br><br>
+      *Waiting since 28 September 2026. Made while holding for customer care.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
