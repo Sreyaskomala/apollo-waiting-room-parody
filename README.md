@@ -30,8 +30,7 @@ This is not a delayed consumer gadget or clothing delivery. This is a life-criti
 ## ⚡ What We Built
 
 1. **⏱️ The Master Waiting Chronograph**:
-   - Live real-time ticking stopwatch calculating the exact days, hours, minutes, and seconds since the order date (**28 September 2026**).
-   - Overdue deadline monitor since the promised delivery date (**29 October 2026**).
+   - Live real-time ticking stopwatch calculating the exact days, hours, minutes, and seconds overdue since the promised delivery date (**29 October 2026**) for **Order #362811882** created on **26 October 2026**.
    - Live metrics counter: 10+ calls made in 72 hours, 0 phone rings received from the delivery boy, 100% fake "customer unavailable" SMS rate.
 
 2. **🧾 Dual Verified Smoking-Gun Receipts**:

@@ -295,7 +295,7 @@ const audioPlayer = {
       if (!this.isPlaying) return;
       if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(
-          "Welcome to Apollo twenty four seven customer support. We understand your order was placed on September twenty-eighth. All of our executives are currently busy inventing new excuses with BlueDart and Shiprocket. Your expected callback time is seventy-two business years. We have marked your delivery as attempted without calling you. Have a wonderful day."
+          "Welcome to Apollo twenty four seven customer support. We understand your order was placed on October twenty-sixth. All of our executives are currently busy inventing new excuses with BlueDart and Shiprocket. Your expected callback time is seventy-two business years. We have marked your delivery as attempted without calling you. Have a wonderful day."
         );
         utterance.rate = 0.95;
         utterance.pitch = 1.0;
@@ -558,7 +558,7 @@ function copyGrievanceNotice() {
 To: Apollo 24|7 Management / BlueDart Express / Shiprocket
 Subject: URGENT: Life-Critical FreeStyle Libre CGM Sensor Delivery / Warehouse Pickup (Apollo Order #362811882)
 
-I placed order #362811882 for a FreeStyle Libre Continuous Glucose Monitoring (CGM) sensor. The promised delivery date has lapsed. Over the past 72+ hours, I have contacted customer support over 10 times without resolution.
+I placed order #362811882 on 26th October 2026 for a FreeStyle Libre Continuous Glucose Monitoring (CGM) sensor. The promised delivery date (29 October) has lapsed. Over the past 72+ hours, I have contacted customer support over 10 times without resolution.
 
 My previous sensor expired 2 days ago, causing blood sugar to spike to a dangerous 341 mg/dL. 
 
@@ -580,7 +580,7 @@ Failure to resolve will result in immediate formal escalation to the National Co
 
 function shareOnTwitter() {
   const tweet = encodeURIComponent(
-    `Hey @Apollo247 @BlueDart_ @ShiprocketIndia, I've been waiting for my medicine order since 28 Sep 2026. Reached support 10+ times in 3 days. Your riders keep marking "Customer Unavailable" with ZERO phone calls! Deliver it or let me collect it from your hub! 📦⌛ #Apollo247 #ConsumerRights`
+    `Hey @Apollo247 @BlueDart_ @ShiprocketIndia, Order #362811882 was placed on 26 Oct 2026. Reached support 10+ times in 3 days. Your riders keep marking "Customer Unavailable" with ZERO phone calls! Deliver it or let me collect it from your hub! 📦⌛ #Apollo247 #ConsumerRights`
   );
   window.open(`https://twitter.com/intent/tweet?text=${tweet}`, '_blank');
 }
