@@ -581,7 +581,7 @@ function shareOnTwitter() {
 
 function shareViralTweet() {
   const tweet = encodeURIComponent(
-    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nMy FreeStyle Libre CGM sensor expired 2 days ago. Blood sugar spiked to 341 mg/dL ↗! Ordered on 28 Sep, promised for 29 Oct. Called 10+ times in 3 days. Your riders keep marking "Customer Unavailable" with ZERO calls!\n\nDeliver it NOW or give me the hub address to pick up! #Apollo247 #MedicalEmergency #BlueDart`
+    `🚨 MEDICAL EMERGENCY: @Apollo247 @BlueDart_ @ShiprocketIndia\n\nMy FreeStyle Libre CGM sensor expired 2 days ago. Blood sugar spiked to 341 mg/dL ↗! Ordered on 28 Sep, promised for 29 Oct. Called 10+ times in 3 days. Your riders keep marking "Customer Unavailable" with ZERO calls!\n\nTrack the proof & parody: https://sreyaskomala.github.io/apollo-waiting-room-parody/\n\n#Apollo247 #MedicalEmergency #BlueDart #ConsumerRights`
   );
   window.open(`https://twitter.com/intent/tweet?text=${tweet}`, '_blank');
 }
@@ -603,6 +603,8 @@ Over the last 72 hours:
 
 Healthcare delivery is not an e-commerce joke. When you delay critical medical equipment, lives are at risk.
 
+🔗 Full tracker & call simulator: https://sreyaskomala.github.io/apollo-waiting-room-parody/
+
 @apollo247 @bluedart_express @shiprocket @jagograhakjago_official @ministryofhealth_india
 
 #Apollo247 #BlueDart #Shiprocket #DiabetesAwareness #Type1Diabetes #ContinuousGlucoseMonitor #ConsumerRights #MedicalNegligence #HighGlucose #JagoGrahakJago`;
@@ -616,7 +618,7 @@ Healthcare delivery is not an e-commerce joke. When you delay critical medical e
 
 function shareOnWhatsApp() {
   const msg = encodeURIComponent(
-    `🚨 Critical medical delivery failure: My FreeStyle Libre glucose sensor expired 2 days ago and blood sugar spiked to 341 mg/dL! Apollo 24|7, Shiprocket & BlueDart have delayed delivery for days and keep marking fake "Customer Unavailable" attempts with 0 phone calls. Check the full parody & evidence tracker: https://apollo-waiting-room-parody.pubgwarrioryt.chatgpt.site/`
+    `🚨 Critical medical delivery failure: My FreeStyle Libre glucose sensor expired 2 days ago and blood sugar spiked to 341 mg/dL! Apollo 24|7, Shiprocket & BlueDart have delayed delivery for days and keep marking fake "Customer Unavailable" attempts with 0 phone calls. Check the full parody & evidence tracker: https://sreyaskomala.github.io/apollo-waiting-room-parody/`
   );
   window.open(`https://api.whatsapp.com/send?text=${msg}`, '_blank');
 }
