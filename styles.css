@@ -96,6 +96,19 @@ header {
   display: flex;
   align-items: center;
   gap: 14px;
+  text-decoration: none;
+}
+
+.brand-logo-img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.brand-logo-img:hover {
+  transform: scale(1.02);
 }
 
 .brand-icon {
@@ -1471,5 +1484,11 @@ footer a:hover {
 @media (max-width: 800px) {
   .evidence-gallery-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-logo-img {
+    height: 38px;
   }
 }
