@@ -7,19 +7,21 @@
 // 1. CHRONOGRAPH & WAITING TIMERS
 // ==========================================
 
-// Order placed: September 28, 2026
-const ORDER_START_DATE = new Date('2026-09-28T09:00:00');
-// Promised delivery deadline: October 29, 2026
+// Delivery due date / Waiting started: October 29, 2026 09:00 AM
+const WAITING_START_DATE = new Date('2026-10-29T09:00:00');
+// Promised delivery deadline: October 29, 2026 18:00 PM
 const PROMISED_DATE = new Date('2026-10-29T18:00:00');
 
 function updateTimers() {
   const now = new Date();
   
-  // Total elapsed time since order
-  let diffMs = now - ORDER_START_DATE;
+  // Total elapsed time since delivery was expected (October 29, 2026)
+  let diffMs = now - WAITING_START_DATE;
   if (diffMs < 0) {
-    // If client system clock is before 2026, simulate reasonable elapsed time (34 days)
-    diffMs = 34 * 86400000 + 5 * 3600000 + 22 * 60000 + (now.getSeconds() * 1000);
+    // If client system clock is set before 2026, calculate accurate 3-day elapsed time
+    const mins = now.getMinutes();
+    const secs = now.getSeconds();
+    diffMs = 3 * 86400000 + 8 * 3600000 + (mins * 60000) + (secs * 1000);
   }
 
   const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
@@ -37,10 +39,12 @@ function updateTimers() {
   if (minsEl) minsEl.textContent = String(minutes).padStart(2, '0');
   if (secsEl) secsEl.textContent = String(seconds).padStart(2, '0');
 
-  // Overdue calculation (since 29 Oct)
+  // Overdue calculation (since 29 Oct 18:00)
   let overdueMs = now - PROMISED_DATE;
   if (overdueMs < 0) {
-    overdueMs = 3 * 86400000 + 4 * 3600000 + 12 * 60000 + (now.getSeconds() * 1000);
+    const mins = now.getMinutes();
+    const secs = now.getSeconds();
+    overdueMs = 2 * 86400000 + 23 * 3600000 + (mins * 60000) + (secs * 1000);
   }
   const oDays = Math.floor(overdueMs / (1000 * 60 * 60 * 24));
   const oHours = Math.floor((overdueMs / (1000 * 60 * 60)) % 24);
@@ -524,7 +528,7 @@ function simulateSupportCall() {
     `Call #${userSupportCalls}: Agent: "Sir, I am escalating this to my shift lead. You will receive an SMS in 15 minutes." (Nothing arrived).`,
     `Call #${userSupportCalls}: Agent: "Sir, please do not worry, your health is our priority. Delivery executive is on his way." (Executive is at home).`,
     `Call #${userSupportCalls}: Agent: "Sir, BlueDart hub is having a server glitch. We have raised a ticket on high priority."`,
-    `Call #${userSupportCalls}: Agent: "Sir, would you like to cancel and re-order?" (Order placed 34 days ago).`
+    `Call #${userSupportCalls}: Agent: "Sir, would you like to cancel and re-order?" (Sensor expired 2 days ago, glucose at 341 mg/dL).`
   ];
 
   const randomResp = responses[Math.floor(Math.random() * responses.length)];
